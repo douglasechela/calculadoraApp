@@ -1,0 +1,24 @@
+// Tag para mudar a cor de fundo.
+ion-content{
+    --background: #000000; // Variável de fundo.
+}
+
+// Tag para formatar botões 
+ion-button{
+    font-family: 'Courier New', Courier, monospace; // Tipo de fonte.
+    font-weight: bolder; // Negrito.
+    height: 95%; // Altura
+}
+
+ion-col{
+    height: calc(55vh / 6); //view height
+}
+
+ion-label{
+    --ion-font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.resultado{
+    font-size: 24px;
+}
